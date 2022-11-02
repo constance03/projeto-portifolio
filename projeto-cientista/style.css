@@ -114,3 +114,81 @@ input {
 .foto {
     border-radius: 60%;
 }
+
+/* =========================RESPONSIVO CELULAR========================== */
+
+@media screen and (max-device-width: 800px) {
+
+    .itens-header {
+        gap: 2vw;
+        padding-left: 0vw;
+    }
+    
+    .icones-header {
+        gap: 0vw;
+    }
+    
+    header {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2vw;
+    }
+    
+    #logo {
+        max-width: 35vw;
+        max-height: 35vh;
+    }
+    
+    /* =============================MAIN=============================================== */
+
+
+    video {
+        max-width: 80vw;
+        max-height: 80vh;
+        width: auto;
+        height: auto;
+        padding-left: 2vw;
+    }
+
+    .projeto {
+        height: 60vh;
+        width: 80vw;
+        flex-direction: column;
+        justify-content: center;
+        gap: 5vh;
+        width: 95vw;
+    }
+    
+    .texto-projeto {
+        padding-left: 2vw;
+        text-align: center;
+    }
+    
+    .titulo {
+        font-size: 2rem;
+        padding-bottom: 2vh;
+    }
+
+
+    /* =============================FOOTER======================================================= */
+
+    footer {
+        height: 45vh;
+    }
+
+    .formulario {
+        text-align: center;
+        font-size: smaller;
+    }
+
+    input {
+        width: 30vw;
+    }
+
+    .copyright {
+        text-align: center;
+        gap: 4vh;
+        padding-right: 1vw;
+    }
+
+}
